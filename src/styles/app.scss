@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/bootstrap";
+@import "spinner";
+@import "utils";
+@import "rtl";
+@import "responsive";
+
+body {
+    font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0275d8;
+    background-color: #fff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}

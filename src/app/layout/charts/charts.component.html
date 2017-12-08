@@ -1,0 +1,338 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Student Details'" ></app-page-header>
+    <div class="row">
+  <div class="col-sm-4 col-xs-12">
+            <div class="card mb-1">
+                <div class="card-header">
+                  Student Details
+                </div>
+                 <div class="row">
+               <div class="form-group col-sm-12">
+                     <label>Student Name</label>
+                  <input id="name" placeholder="Student Name" class="form-control " required="">
+                </div>
+                  </div>
+                   <div class="row">
+                  <div class="form-group col-sm-12">
+                    <label>Father Name</label>
+                    <input id="name" placeholder="Father Name" class="form-control " required="">
+                  </div>
+                 </div>
+                  <div class="row">
+                                   <div class="form-group col-sm-6">
+                                            <label>Class</label>
+                                            <select id="gender" name="gender" class="form-control">
+                                                <option value="">Gender</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+
+
+                                        <div class="form-group col-sm-6">
+                                            <label>Gender</label>
+                                            <select id="student_ype" class="form-control"style="float:right;">
+                                                <option value="">Type</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+                    </div>
+                                        <div class="row">
+                                        <div class="col-sm-6">
+                                            <label>Type</label>
+                                            <select id="language" class="form-control">
+                                                <option value="">Language</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <label>II Language</label>
+                                            <select id="group" n class="form-control">
+                                                <option value="">Group</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+</div>
+
+
+                                            <div class="row">
+                                             <div class="col-sm-6">
+                                            <label>II Language</label>
+                                            <select id="group" n class="form-control">
+                                                <option value="">Group</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+                                            <div class="form-group col-sm-6">
+                                            <label>Date of Birth</label>
+                                            <div class="input-group">
+                                                <input type="text" id="dateToInput" class="form-control ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty ng-valid-date" uib-datepicker-popup="yyyy-MM-dd" placeholder="YYYY-MM-DD" min-date="dateFrom" max-date="dateTo" close-text="Close" ng-model="dob" show-weeks="true" is-open="dobOpened" ng-click="dobOpened = true"><!-- ngIf: isOpen -->
+                                                <span class="input-group-btn">
+                                                    <label for="dateToInput" class="btn btn-xs btn-default"><i class="fa fa-calendar"></i></label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </div>
+                <div class="card-footer">
+                    <button class="btn btn-info btn-sm">Update</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-sm-8">
+            <div class="card mb-3">
+                <div class="card-header">
+                   Parent Details
+                </div>
+                <div class="card-block">
+                <div class= "row">
+                  <div class="form-group col-sm-6">
+                                            <label>Father Name</label>
+                                        <input id="name" placeholder="Father Name" class="form-control " required="">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label>Mother Name</label>
+                                            <input id="name" placeholder="Mother Name" class="form-control " required="">
+                                        </div>
+                                    </div>
+                                <div class= "row">
+                                        <div class="form-group col-sm-3">
+                                            <label>Father Mobile</label>
+                                            <input id="name" placeholder="Father Mobile" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Father Office Phone</label>
+                                            <input id="name" placeholder=" Office Phone" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Mother Mobile</label>
+                                            <input id="name" placeholder="Mother Mobile" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Mother Office Phone</label>
+                                            <input id="name" placeholder="Office Phone" class="form-control " required="">
+                                        </div>
+                                        </div>
+                                         <div class= "row">
+                                        <div class="form-group col-sm-3">
+                                            <label>Father Qualification</label>
+                                            <input id="name" placeholder="Father Qualification" class="form-control " required="">
+                                        </div>
+
+
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Father Occupation</label>
+                                            <input id="name" placeholder="Father Occupation" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Mother Qualification</label>
+                                            <input id="name" placeholder="Mother Qualification" class="form-control " required="">
+                                        </div>
+
+
+                                        <div class="form-group col-sm-3">
+                                            <label>Mother Occupation</label>
+                                            <input id="name" placeholder="Mother Occupation" class="form-control " required="">
+                                        </div>
+                                    </div>
+                                <div class= "row">
+                                          <div class="form-group col-sm-6">
+                                            <label>Father Office Address</label>
+                                            <input id="name" placeholder="Father Office Address" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label>Mother Office Address </label>
+                                            <input id="name" placeholder="Mother Office Address" class="form-control " required="">
+                                        </div>
+</div>
+                                        <div class= "row">
+                                            <div class="form-group col-sm-6">
+                                            <label>Father Email</label>
+                                            <input id="name" placeholder="Father Email" class="form-control " required="">
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label>Mother Email </label>
+                                            <input id="name" placeholder="Mother Email" class="form-control " required="">
+                                        </div>
+                                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-xs-12">
+            <div class="card mb-3">
+                <div class="card-header">
+                   Communication Details
+                </div>
+                <div class="card-block">
+                    <div class="row">
+                    <div class="form-group col-sm-6 col-xs-12">
+                                     <label>Group</label>
+                                     <input id="name" placeholder="Group" class="form-control " required="">
+                     </div>
+                     <div class="form-group col-sm-6 col-xs-12">
+                                       <label>Group</label>
+                                        <input id="name" placeholder="Group" class="form-control " required="">
+                     </div>
+
+                </div>
+
+                    <div class="row">
+                           <div class="form-group col-sm-12">
+                            <label>DoorNoStreet </label>
+                            <textarea class="form-control" id="exampleTextarea"   placeholder="DoorNoStreet" rows="5"></textarea>
+                           </div>
+                    </div>
+
+                     <div class="row">
+
+                        <div class="form-group col-sm-6">
+                                            <label>Area</label>
+                                            <input id="name" placeholder="Area" class="form-control " required="">
+                                        </div>
+                                    <div class="form-group col-sm-6">
+                                            <label>City</label>
+                                            <input id="name" placeholder="City" class="form-control " required="">
+                                        </div>
+                     </div>
+
+                     <div class="row">
+
+                            <div class="form-group col-sm-6">
+                                            <label>State</label>
+                                            <input id="name" placeholder="State" class="form-control " required="">
+                                        </div>
+
+                                    <div class="form-group col-sm-6">
+                                            <label>Pincode</label>
+                                            <input id="name" placeholder="Pincode" class="form-control " required="">
+                                        </div>
+
+
+                     </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-4 col-xs-12 ">
+            <div class="card mb-3">
+                <div class="card-header">
+                   Other Details
+                </div>
+                <div class="card-block">
+                   <div class="row">
+                    <div class="form-group col-sm-6">
+                                            <label>EMIS No</label>
+                                        <input id="name" placeholder="EMIS No" class="form-control " required="">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label>Blood Group</label>
+                                            <input id="name" placeholder="Blood Group" class="form-control " required="">
+                                        </div>
+                   </div>
+                   <div class="row">
+                            <div class="form-group col-sm-6">
+                                            <label>Height</label>
+                                        <input id="name" placeholder="Height" class="form-control " required="">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label>Weight</label>
+                                            <input id="name" placeholder="Weight" class="form-control " required="">
+                                        </div>
+
+                   </div>
+                    <div class="row">
+                               <div class="form-group col-lg-6">
+                                            <label>Religion</label>
+                                            <select id="class" name="class" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="">Hindu</option>
+                                                <option value="">Christian</option>
+                                                <option value="">Muslim</option>
+                                                <option value="">Others</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-lg-6">
+                                            <label>Caste</label>
+                                            <select id="gender" name="gender" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="">OC</option>
+                                                <option value="">BC</option>
+                                                <option value="">MBC</option>
+                                                <option value="">SC</option>
+                                                <option value="">ST</option>
+                                                <option value="">Others</option>
+                                            </select>
+                                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-sm-12">
+                            <label>Community</label>
+                            <input id="name" placeholder="Community" class="form-control " required="">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-lg-6">
+                                            <label>Type</label>
+                                            <select id="student_ype" class="form-control">
+                                                <option value="">Type</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-lg-6">
+                                            <label>Type</label>
+                                            <select id="student_ype" class="form-control">
+                                                <option value="">Type</option>
+                                                <option value="">Select Class</option>
+                                                <option value="">Select Class</option>
+                                            </select>
+                                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-sm-4 col-xs-12">
+            <div class="card mb-3">
+                <div class="card-header">
+                    Image Upload
+                </div>
+                <div class="card-block">
+
+                <div class="row">
+                <div class="form-group">
+                                <label>File input</label>
+                                <input type="file">
+                            </div>
+                </div>
+                <div class="form-group">
+                                    <span class="text-danger"><b>Note:- </b>Please upload a .csv file</span>
+                                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
